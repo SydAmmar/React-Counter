@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  /*font-family: sans-serif;*/
+}
+#button1{
+  background-color: #000;
+  color: lightblue;
+  text-align: center;
+  padding: 15px 32px;
+  font-size: 25px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 25px cadetblue;
+  border: none;
+}
+#button2{
+  background-color: #000;
+  color: lightcoral;
+  text-align: center;
+  padding: 15px 32px;
+  font-size: 25px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 25px lightcoral;
+  border: none;
+}
+#button1:active{
+  box-shadow: none;
+}
+#button2:active{
+  box-shadow: none;
+}
+#button1:hover{
+  color: blue;
+}
+#button2:hover{
+  color: red;
+}
+h2,h1{
+  font-size: 60px;
+  color: gold
+}
+#root{
+  background-color: black;
+}
